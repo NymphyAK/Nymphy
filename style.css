@@ -34,3 +34,28 @@ body {
     height: 120px;
 }
 
+.ammoknights-page {
+    padding: 40px;
+    color: white;
+}
+
+.static {
+    cursor: default;
+}
+
+.member-title {
+    margin: 30px 0 10px;
+}
+
+.members {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.member {
+    background: #d9d9d9;
+    height: 90px;
+    border-radius: 6px;
+}
+
