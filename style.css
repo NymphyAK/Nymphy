@@ -1,39 +1,36 @@
 body {
-    background: #0e0e0e;
-    color: white;
-    font-family: Arial;
-    text-align: center;
+    margin: 0;
+    background: #0b0b0b;
+    font-family: Arial, sans-serif;
 }
 
-.card {
-    width: 300px;
-    height: 120px;
+.homescreen {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ammoknights-card {
+    width: 600px;
+    height: 150px;
     background: white;
-    color: black;
-    margin: 100px auto;
+    border-radius: 14px;
+
     display: flex;
-    justify-content: center;
     align-items: center;
-    font-size: 24px;
-    font-weight: bold;
+    justify-content: space-between;
+
+    padding: 20px 30px;
     cursor: pointer;
-    border-radius: 12px;
 }
 
-.members {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    padding: 40px;
+.ammoknights-card h2 {
+    font-size: 28px;
+    margin: 0;
 }
 
-.member {
-    background: #ddd;
-    color: black;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
+.character {
+    height: 120px;
 }
 
