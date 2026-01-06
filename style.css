@@ -1,86 +1,39 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
-  margin: 0;
-  background: #0e0e0e;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
+    background: #0e0e0e;
+    color: white;
+    font-family: Arial;
+    text-align: center;
 }
 
-/* TOP BAR */
-.top-bar {
-  display: flex;
-  height: 12px;
-  position: relative;
-}
-
-.bar {
-  flex: 1;
-}
-
-.green { background: #6fcf97; }
-.yellow { background: #f2c94c; }
-.red { background: #eb5757; }
-
-.profile {
-  position: absolute;
-  right: 10px;
-  top: 14px;
-  font-size: 20px;
-}
-
-/* MAIN AREA */
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: calc(100vh - 12px);
-  gap: 20px;
-}
-
-.nav {
-  background: none;
-  border: none;
-  color: #aaa;
-  font-size: 28px;
-  cursor: pointer;
-}
-
-.nav:hover {
-  color: white;
-}
-
-/* CARD */
 .card {
-  background: white;
-  color: black;
-  width: 520px;
-  height: 180px;
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  padding: 20px;
-  gap: 20px;
+    width: 300px;
+    height: 120px;
+    background: white;
+    color: black;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 12px;
 }
 
-.card-text {
-  flex: 1;
+.members {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 40px;
 }
 
-.card-text h1 {
-  margin: 0;
-  font-size: 28px;
-  letter-spacing: 1px;
+.member {
+    background: #ddd;
+    color: black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
 }
 
-.card-text p {
-  margin-top: 6px;
-  font-size: 14px;
-  color: #444;
-}
-
-.card img {
-  height: 160px;
-}
